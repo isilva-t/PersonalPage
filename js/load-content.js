@@ -3,8 +3,8 @@ const projects = [
 	'partstock',       // Sep 2025 - Present
 	'stafftrace',      // Nov 2025 - Dec 2025
 	'pong',            // May 2025 - Aug 2025
-	'infrastructure',  // Feb 2025 - Apr 2025
 	'irc',             // Mar 2025 - May 2025
+	'infrastructure',  // Feb 2025 - Apr 2025
 	'raytracer'        // Nov 2024 - Jan 2025
 ];
 
