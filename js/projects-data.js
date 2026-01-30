@@ -74,7 +74,7 @@ const moreProjects = [
         title: 'Minishell',
         shortDesc: 'Bash-like shell with pipes, redirections, and built-in commands',
         image: 'images/minishell.jpg',
-        tech: ['C', 'Shell', 'Processes', "Unix Signals"],
+        tech: ['C', 'Processes', 'UNIX Signals'],
         github: 'https://github.com/isilva-t/42.Minishell',
     },
     {
@@ -82,7 +82,7 @@ const moreProjects = [
         title: 'Philosophers',
         shortDesc: 'Dining philosophers problem with multithreading and mutex synchronization',
         image: 'images/philosophers.jpg',
-        tech: ['C', 'Threads', 'Mutex'],
+        tech: ['C', 'Threads', 'Mutexes'],
         github: 'https://github.com/isilva-t/42.Philosophers',
     },
     {
