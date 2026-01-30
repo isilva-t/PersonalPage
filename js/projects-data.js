@@ -4,7 +4,7 @@ const featuredProjects = [
         title: 'Inventory & Marketplace Integration',
         shortDesc: 'Full-stack inventory system driving 50% sales growth for automotive parts SME',
         image: 'images/partstock.jpg',
-        tech: ['Python', 'FastAPI', 'Angular', 'PostgreSQL'],
+        tech: ['Python', 'FastAPI', 'SQLite'],
         liveDemo: 'https://partstock.xyz',
         period: 'Sep 2025 - Present'
     },
@@ -13,7 +13,7 @@ const featuredProjects = [
         title: 'Employee Time & Attendance System',
         shortDesc: 'Microservices system with cloud dashboard and on-premise monitors',
         image: 'images/stafftrace.jpg',
-        tech: ['Java', 'Spring Boot', 'Python', 'Kubernetes'],
+        tech: ['Java', 'Spring Boot', 'Python'],
         github: 'https://github.com/isilva-t/stafftrace',
         liveDemo: 'https://stafftrace.xyz',
         period: 'Nov 2025 - Dec 2025'
@@ -23,7 +23,7 @@ const featuredProjects = [
         title: 'Multiplayer WebGame Platform',
         shortDesc: 'Full-stack gaming platform with OAuth, monitoring, and real-time gameplay',
         image: 'images/pong.jpg',
-        tech: ['TypeScript', 'Node.js', 'Docker', 'Prometheus'],
+        tech: ['TypeScript', 'Node.js', 'Docker'],
         github: 'https://github.com/isilva-t/42.transcendence',
         period: 'May 2025 - Aug 2025'
     }
@@ -35,7 +35,7 @@ const otherProjects = [
         title: 'IRC Server',
         shortDesc: 'Multi-client IRC server with network programming and concurrency',
         image: 'images/irc.jpg',
-        tech: ['C++', 'Network Programming', 'Socket API'],
+        tech: ['C++', 'Network Programming', "Design Patterns"],
         github: 'https://github.com/isilva-t/42.internet_relay_chat',
         period: 'Mar 2025 - May 2025'
     },
@@ -44,7 +44,7 @@ const otherProjects = [
         title: 'Multi-Service Infrastructure',
         shortDesc: 'Containerized web stack with NGINX, WordPress, and MariaDB',
         image: 'images/infrastructure.jpg',
-        tech: ['Docker', 'NGINX', 'MariaDB', 'SSL/TLS'],
+        tech: ['Docker', 'NGINX', 'MariaDB'],
         github: 'https://github.com/isilva-t/42.inception',
         period: 'Feb 2025 - Apr 2025'
     },
@@ -62,7 +62,7 @@ const otherProjects = [
         title: 'C++ Modules',
         shortDesc: 'Object-oriented programming fundamentals in C++98 standard',
         image: 'images/cpp.jpg',
-        tech: ['C++', 'OOP'],
+        tech: ['C++', 'OOP', "Data Structures"],
         github: 'https://github.com/isilva-t/42.Cpp_modules',
         period: 'Nov 2024 - Mar 2025'
     }
@@ -74,7 +74,7 @@ const moreProjects = [
         title: 'Minishell',
         shortDesc: 'Bash-like shell with pipes, redirections, and built-in commands',
         image: 'images/minishell.jpg',
-        tech: ['C', 'Shell', 'Processes'],
+        tech: ['C', 'Shell', 'Processes', "Unix Signals"],
         github: 'https://github.com/isilva-t/42.Minishell',
     },
     {
@@ -98,7 +98,7 @@ const moreProjects = [
         title: 'FDF',
         shortDesc: '3D wireframe renderer for heightmap visualization',
         image: 'images/fdf.jpg',
-        tech: ['C', '3D Graphics'],
+        tech: ['C', '3D Graphics', "Rendering"],
         github: 'https://github.com/isilva-t/42_Fdf',
     },
     {
@@ -106,7 +106,7 @@ const moreProjects = [
         title: 'Push Swap',
         shortDesc: 'Stack sorting algorithm optimization challenge',
         image: 'images/pushswap.jpg',
-        tech: ['C', 'Algorithms'],
+        tech: ['C', 'Algorithms', "linked-lists"],
         github: 'https://github.com/isilva-t/42.push_swap',
     },
     {
