@@ -8,7 +8,7 @@ function createProjectCard(project, isFeatured = false) {
                 <img src="${project.image}" alt="${project.title}" class="w-full h-48 object-cover" onerror="this.src='images/placeholder.png'">
 
             </div>
-            <div class="p-6 flex flex-col justify-between" style="min-height: 240px;">
+            <div class="p-6 flex flex-col justify-between" style="min-height: ${isFeatured ? '280px' : '240px'}">
                 <div>
                     <h3 class="text-xl font-bold text-lightest-slate mb-3">${project.title}</h3>
                     <p class="text-slate text-sm mb-4 leading-relaxed" style="min-height: 3.25em;">${project.shortDesc}</p>
