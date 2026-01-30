@@ -5,7 +5,6 @@ const featuredProjects = [
         shortDesc: 'Full-stack inventory system driving 50% sales growth for automotive parts SME',
         image: 'images/partstock.jpg',
         tech: ['Python', 'FastAPI', 'Angular', 'PostgreSQL'],
-        github: 'https://github.com/isilva-t/partstock',
         liveDemo: 'https://partstock.xyz',
         period: 'Sep 2025 - Present'
     },
@@ -77,7 +76,6 @@ const moreProjects = [
         image: 'images/minishell.jpg',
         tech: ['C', 'Shell', 'Processes'],
         github: 'https://github.com/isilva-t/42.Minishell',
-        period: 'Aug 2024 - Nov 2024'
     },
     {
         id: 'philosophers',
@@ -86,7 +84,6 @@ const moreProjects = [
         image: 'images/philosophers.jpg',
         tech: ['C', 'Threads', 'Mutex'],
         github: 'https://github.com/isilva-t/42.Philosophers',
-        period: 'Oct 2024 - Nov 2024'
     },
     {
         id: 'minitalk',
@@ -95,7 +92,6 @@ const moreProjects = [
         image: 'images/minitalk.jpg',
         tech: ['C', 'UNIX Signals'],
         github: 'https://github.com/isilva-t/42.minitalk',
-        period: 'Jul 2024 - Aug 2024'
     },
     {
         id: 'fdf',
@@ -104,7 +100,6 @@ const moreProjects = [
         image: 'images/fdf.jpg',
         tech: ['C', '3D Graphics'],
         github: 'https://github.com/isilva-t/42_Fdf',
-        period: 'Jul 2024 - Ago 2024'
     },
     {
         id: 'push-swap',
@@ -113,7 +108,6 @@ const moreProjects = [
         image: 'images/pushswap.jpg',
         tech: ['C', 'Algorithms'],
         github: 'https://github.com/isilva-t/42.push_swap',
-        period: 'Jun 2024 - Jul 2024'
     },
     {
         id: 'get-next-line',
@@ -122,7 +116,6 @@ const moreProjects = [
         image: 'images/gnl.jpg',
         tech: ['C', 'File I/O'],
         github: 'https://github.com/isilva-t/42.get_next_line',
-        period: 'May 2024'
     },
     {
         id: 'ft-printf',
@@ -131,7 +124,6 @@ const moreProjects = [
         image: 'images/printf.jpg',
         tech: ['C', 'Variadic Functions'],
         github: 'https://github.com/isilva-t/42.ft_printf',
-        period: 'May 2024'
     },
     {
         id: 'libft',
@@ -140,6 +132,5 @@ const moreProjects = [
         image: 'images/libft.jpg',
         tech: ['C', 'Standard Library'],
         github: 'https://github.com/isilva-t/42.Libft',
-        period: 'O'
     }
 ];
