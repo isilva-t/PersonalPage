@@ -1,0 +1,145 @@
+const featuredProjects = [
+    {
+        id: 'partstock',
+        title: 'Inventory & Marketplace Integration',
+        shortDesc: 'Full-stack inventory system driving 50% sales growth for automotive parts SME',
+        image: 'images/partstock.png',
+        tech: ['Python', 'FastAPI', 'Angular', 'PostgreSQL'],
+        github: 'https://github.com/isilva-t/partstock',
+        liveDemo: 'https://partstock.xyz',
+        period: 'Sep 2025 - Present'
+    },
+    {
+        id: 'stafftrace',
+        title: 'Employee Time & Attendance System',
+        shortDesc: 'Microservices system with cloud dashboard and on-premise monitors',
+        image: 'images/stafftrace.png',
+        tech: ['Java', 'Spring Boot', 'Python', 'Kubernetes'],
+        github: 'https://github.com/isilva-t/stafftrace',
+        liveDemo: 'https://stafftrace.xyz',
+        period: 'Nov 2025 - Dec 2025'
+    },
+    {
+        id: 'transcendence',
+        title: 'Multiplayer WebGame Platform',
+        shortDesc: 'Full-stack gaming platform with OAuth, monitoring, and real-time gameplay',
+        image: 'images/pong.png',
+        tech: ['TypeScript', 'Node.js', 'Docker', 'Prometheus'],
+        github: 'https://github.com/isilva-t/42.transcendence',
+        period: 'May 2025 - Aug 2025'
+    }
+];
+
+const otherProjects = [
+    {
+        id: 'irc',
+        title: 'IRC Server',
+        shortDesc: 'Multi-client IRC server with network programming and concurrency',
+        image: 'images/irc.png',
+        tech: ['C++', 'Network Programming', 'Socket API'],
+        github: 'https://github.com/isilva-t/42.internet_relay_chat',
+        period: 'Mar 2025 - May 2025'
+    },
+    {
+        id: 'infrastructure',
+        title: 'Multi-Service Infrastructure',
+        shortDesc: 'Containerized web stack with NGINX, WordPress, and MariaDB',
+        image: 'images/infrastructure.png',
+        tech: ['Docker', 'NGINX', 'MariaDB', 'SSL/TLS'],
+        github: 'https://github.com/isilva-t/42.inception',
+        period: 'Feb 2025 - Apr 2025'
+    },
+    {
+        id: 'raytracer',
+        title: '3D Ray Tracer',
+        shortDesc: 'Ray tracing renderer with TDD approach and computer graphics',
+        image: 'images/raytracer.png',
+        tech: ['C', 'Computer Graphics', 'TDD'],
+        github: 'https://github.com/isilva-t/42.minirt',
+        period: 'Nov 2024 - Jan 2025'
+    },
+    {
+        id: 'cpp-modules',
+        title: 'C++ Modules',
+        shortDesc: 'Object-oriented programming fundamentals in C++98 standard',
+        image: 'images/cpp.png',
+        tech: ['C++', 'OOP'],
+        github: 'https://github.com/isilva-t/42.Cpp_modules',
+        period: 'Nov 2024 - Mar 2025'
+    }
+];
+// More Projects - 42 Porto curriculum projects
+const moreProjects = [
+    {
+        id: 'minishell',
+        title: 'Minishell',
+        shortDesc: 'Bash-like shell with pipes, redirections, and built-in commands',
+        image: 'images/minishell.png',
+        tech: ['C', 'Shell', 'Processes'],
+        github: 'https://github.com/isilva-t/42.Minishell',
+        period: 'Aug 2024 - Nov 2024'
+    },
+    {
+        id: 'philosophers',
+        title: 'Philosophers',
+        shortDesc: 'Dining philosophers problem with multithreading and mutex synchronization',
+        image: 'images/philosophers.png',
+        tech: ['C', 'Threads', 'Mutex'],
+        github: 'https://github.com/isilva-t/42.Philosophers',
+        period: 'Oct 2024 - Nov 2024'
+    },
+    {
+        id: 'minitalk',
+        title: 'Minitalk',
+        shortDesc: 'Inter-process communication using UNIX signals',
+        image: 'images/minitalk.png',
+        tech: ['C', 'UNIX Signals'],
+        github: 'https://github.com/isilva-t/42.minitalk',
+        period: 'Jul 2024 - Aug 2024'
+    },
+    {
+        id: 'fdf',
+        title: 'FDF',
+        shortDesc: '3D wireframe renderer for heightmap visualization',
+        image: 'images/fdf.png',
+        tech: ['C', '3D Graphics'],
+        github: 'https://github.com/isilva-t/42_Fdf',
+        period: 'Jul 2024 - Ago 2024'
+    },
+    {
+        id: 'push-swap',
+        title: 'Push Swap',
+        shortDesc: 'Stack sorting algorithm optimization challenge',
+        image: 'images/pushswap.png',
+        tech: ['C', 'Algorithms'],
+        github: 'https://github.com/isilva-t/42.push_swap',
+        period: 'Jun 2024 - Jul 2024'
+    },
+    {
+        id: 'get-next-line',
+        title: 'Get Next Line',
+        shortDesc: 'File reading function with static variable management',
+        image: 'images/gnl.png',
+        tech: ['C', 'File I/O'],
+        github: 'https://github.com/isilva-t/42.get_next_line',
+        period: 'May 2024'
+    },
+    {
+        id: 'ft-printf',
+        title: 'ft_printf',
+        shortDesc: 'Printf function reimplementation with variadic arguments',
+        image: 'images/printf.png',
+        tech: ['C', 'Variadic Functions'],
+        github: 'https://github.com/isilva-t/42.ft_printf',
+        period: 'May 2024'
+    },
+    {
+        id: 'libft',
+        title: 'Libft',
+        shortDesc: 'Custom C standard library recreation',
+        image: 'images/libft.png',
+        tech: ['C', 'Standard Library'],
+        github: 'https://github.com/isilva-t/42.Libft',
+        period: 'O'
+    }
+];
