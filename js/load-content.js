@@ -8,7 +8,7 @@ function createProjectCard(project, isFeatured = false) {
                 <img src="${project.image}" alt="${project.title}" class="w-full h-48 object-cover" onerror="this.src='images/placeholder.png'">
 
             </div>
-            <div class="p-6 flex flex-col justify-between" style="min-height: ${isFeatured ? '280px' : '240px'}">
+            <div class="p-6 flex flex-col justify-between" style="min-height: ${isFeatured ? '280px' : '250px'}">
                 <div>
                     <h3 class="text-xl font-bold text-lightest-slate mb-3">${project.title}</h3>
                     <p class="text-slate text-sm mb-4 leading-relaxed" style="min-height: 3.25em;">${project.shortDesc}</p>
@@ -50,13 +50,37 @@ function createCarousel(projects, containerId, isFeatured = false) {
     const container = document.getElementById(containerId);
     if (!container) return;
     
+    const carouselId = `carousel-${containerId}`;
+    
     container.innerHTML = `
         <div class="carousel-wrapper relative">
-            <div class="carousel-container flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth">
+            <div id="${carouselId}" class="carousel-container flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth">
                 ${projects.map(project => createProjectCard(project, isFeatured)).join('')}
+            </div>
+            <div class="hidden md:flex gap-3 justify-center mt-4">
+                <button onclick="scrollCarousel('${carouselId}', -1)" 
+                        class="border border-cyan/30 text-cyan px-4 py-2 rounded hover:bg-cyan/10 transition-colors">
+                    ← Left
+                </button>
+                <button onclick="scrollCarousel('${carouselId}', 1)" 
+                        class="border border-cyan/30 text-cyan px-4 py-2 rounded hover:bg-cyan/10 transition-colors">
+                    Right →
+                </button>
             </div>
         </div>
     `;
+}
+
+// Function to scroll carousel
+function scrollCarousel(carouselId, direction) {
+    const carousel = document.getElementById(carouselId);
+    if (!carousel) return;
+    
+    const scrollAmount = 400; // Ajusta conforme largura dos cards
+    carousel.scrollBy({
+        left: direction * scrollAmount,
+        behavior: 'smooth'
+    });
 }
 
 // Load all projects when DOM is ready
