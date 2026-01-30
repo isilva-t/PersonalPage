@@ -8,15 +8,15 @@ function createProjectCard(project, isFeatured = false) {
                 <img src="${project.image}" alt="${project.title}" class="w-full h-48 object-cover" onerror="this.src='images/placeholder.png'">
 
             </div>
-<div class="p-6 flex flex-col justify-between" style="min-height: 280px;">
+            <div class="p-6 flex flex-col justify-between" style="min-height: 280px;">
                 <div>
                     <h3 class="text-xl font-bold text-lightest-slate mb-3">${project.title}</h3>
                     <p class="text-slate text-sm mb-4 leading-relaxed" style="min-height: 3.25em;">${project.shortDesc}</p>
-                </div>
-                <div class="flex flex-wrap gap-2 mb-4">
-                    ${project.tech.slice(0, isFeatured ? 4 : 3).map(tech => 
-                        `<span class="px-2 py-1 bg-navy text-cyan text-xs font-mono rounded border border-cyan/30">${tech}</span>`
-                    ).join('')}
+                    <div class="flex flex-wrap gap-2">
+                        ${project.tech.slice(0, isFeatured ? 4 : 3).map(tech => 
+                            `<span class="px-2 py-1 bg-navy text-cyan text-xs font-mono rounded border border-cyan/30">${tech}</span>`
+                        ).join('')}
+                    </div>
                 </div>
                 <div class="flex gap-3 text-sm justify-center">
                     <a href="${project.github}" 
