@@ -5,6 +5,7 @@ const featuredProjects = [
         shortDesc: 'Full-stack inventory system driving 50% sales growth for automotive parts SME',
         image: 'images/partstock.jpg',
         tech: ['Python', 'FastAPI', 'SQLite'],
+        github: 'https://github.com/isilva-t/partstock',
         liveDemo: 'https://partstock.xyz',
         period: 'Sep 2025 - Present'
     },
