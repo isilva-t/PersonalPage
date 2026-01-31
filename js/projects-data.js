@@ -1,7 +1,7 @@
 const featuredProjects = [
     {
         id: 'partstock',
-        title: 'Inventory & Marketplace Integration',
+        title: 'AutoParts Inventory & Marketplace Integration',
         shortDesc: 'Full-stack inventory system driving 50% sales growth for automotive parts SME',
         image: 'images/partstock.jpg',
         tech: ['Python', 'FastAPI', 'SQLite'],
