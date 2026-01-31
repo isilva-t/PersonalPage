@@ -135,3 +135,42 @@ const moreProjects = [
         github: 'https://github.com/isilva-t/42.Libft',
     }
 ];
+
+const currentlyBuilding = [
+    {
+        id: 'catalog',
+        title: 'Online Catalog for AutoParts Local System',
+        shortDesc: 'Catalog focused for organic SEO, and client Leads. For production.',
+        image: 'images/catalog.jpg',
+        tech: ['Java', 'Spring Boot', "Angular"],
+        github: 'https://github.com/isilva-t/catalog_for_partstock',
+        period: 'Dec 2025 - Present'
+    },
+    {
+        id: 'avaj',
+        title: '42 Avaj-Launcher ',
+        shortDesc: 'Focus on Design Patterns: Observer, Factory and Singleton. UML diagrams',
+        image: 'images/avaj-launcher.jpg',
+        tech: ['Java', 'Design Patterns', 'OOP'],
+        github: 'https://github.com/isilva-t/42.avaj-launcher',
+        period: 'Jan 2026 - Present'
+    },
+    {
+        id: 'pythonData',
+        title: '42 Python for Data Science',
+        shortDesc: 'Modules from fundamentals, to OOP, and Data Tables',
+        image: 'images/pythondata.jpg',
+        tech: ['Python', 'Data Tables', 'OOP'],
+        github: 'https://github.com/isilva-t/42.python_for_data_science',
+        period: 'Dez 2025 - Present'
+    },
+    {
+        id: 'ping',
+        title: '42 Ping',
+        shortDesc: 'Replication of GNU ping from Inetutils-2.0. Focused on ICMP comunication',
+        image: 'images/ftping.jpg',
+        tech: ['C', 'Network', 'ICMP packets'],
+        github: 'https://github.com/isilva-t/42.ping',
+        period: 'Set 2024 - Present'
+    },
+];

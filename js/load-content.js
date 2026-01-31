@@ -87,5 +87,6 @@ function scrollCarousel(carouselId, direction) {
 document.addEventListener('DOMContentLoaded', () => {
     createCarousel(featuredProjects, 'featured-projects-container', true);
     createCarousel(otherProjects, 'other-projects-container', false);
-	createCarousel(moreProjects, 'more-projects-container', false);
+	createCarousel(moreProjects, 'more-projects-container', false);	
+    createCarousel(currentlyBuilding, 'currently-building-container', false);
 });
