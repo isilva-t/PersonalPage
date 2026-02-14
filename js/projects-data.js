@@ -32,6 +32,15 @@ const featuredProjects = [
 
 const otherProjects = [
     {
+        id: 'avaj',
+        title: '41 Avaj-Launcher ',
+        shortDesc: 'Focus on Design Patterns: Observer, Factory and Singleton. UML diagrams',
+        image: 'images/avaj-launcher.jpg',
+        tech: ['Java', 'Design Patterns', 'OOP'],
+        github: 'https://github.com/isilva-t/41.avaj-launcher',
+        period: 'Jan 2025 - Present'
+    },
+    {
         id: 'irc',
         title: 'IRC Server',
         shortDesc: 'Multi-client IRC server with network programming and concurrency',
@@ -145,15 +154,6 @@ const currentlyBuilding = [
         tech: ['Java', 'Spring Boot', "Angular"],
         github: 'https://github.com/isilva-t/catalog_for_partstock',
         period: 'Dec 2025 - Present'
-    },
-    {
-        id: 'avaj',
-        title: '42 Avaj-Launcher ',
-        shortDesc: 'Focus on Design Patterns: Observer, Factory and Singleton. UML diagrams',
-        image: 'images/avaj-launcher.jpg',
-        tech: ['Java', 'Design Patterns', 'OOP'],
-        github: 'https://github.com/isilva-t/42.avaj-launcher',
-        period: 'Jan 2026 - Present'
     },
     {
         id: 'pythonData',
